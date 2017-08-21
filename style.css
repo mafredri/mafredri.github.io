@@ -1,0 +1,63 @@
+html, body {
+        background-color: #ecfafe;
+        font-family: 'Encode Sans Condensed', Arial, Helvetica, sans-serif;
+        padding: 0 0.5rem;
+        text-align: center;
+        line-height: 1.3;
+        color: #17212d;
+}
+
+h1 {
+        font-size: 2rem;
+        font-weight: normal;
+        margin: 1rem 0;
+}
+
+#me {
+        margin: 50vh auto 0 auto;
+        transform: translateY(-50%);
+        min-width: 10rem;
+        max-width: 25rem;
+}
+
+#mathias {
+        border-radius: 50%;
+        height: 7.5rem;
+        width: 7.5rem;
+        margin: 0.25rem
+}
+
+p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0;
+}
+p + p {
+        margin-bottom: 1rem;
+}
+
+a, a:hover {
+        color: #17212d;
+        text-decoration: none;
+}
+
+p a {
+        border-bottom: 1px solid rgba(23, 33, 45, .5);
+}
+p a:hover {
+        border-bottom: none;
+}
+
+a.social, a.social:hover {
+        color: #5581a7;
+        display: inline-block;
+        font-size: 1.125rem;
+        padding: 0.125rem 0.5rem;
+        white-space: nowrap;
+}
+a.social span {border-bottom: 1px solid #5581a7;}
+a.social:hover span {border-bottom: none;}
+a.social i {
+        font-size: 1.625rem;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+}
